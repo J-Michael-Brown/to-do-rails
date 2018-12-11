@@ -1,3 +1,8 @@
 <h1>Edit Task</h1>
 
+<h4>Old description:</h4>
+<p><%= @task.description %></p>
+
 <%= render "form" %>
+
+<p><%= link_to @list.name, list_path(@list) %></p>
